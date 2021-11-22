@@ -26,5 +26,5 @@ jobs:
       run: poetry install
     # - name: Setup tmate session
     #   uses: mxschmitt/action-tmate@v1
-    - name: Test with Pytest
+    - name: Test with Pytest1
       run: xvfb-run pytest
