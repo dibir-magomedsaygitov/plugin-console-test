@@ -8,4 +8,5 @@ jobs:
     steps:
     - uses: actions/checkout@v2.4.0
     - name: test
-      run: ping ya.ru
+      run: 
+        echo POVAR
